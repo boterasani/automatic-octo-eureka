@@ -2,7 +2,7 @@ working_dir: &working_dir ~/app
 version: 2.1
 jobs:
   red:
-    ###############################
+    ##############################
     docker:
       - image: cimg/node:20.16.0
     
