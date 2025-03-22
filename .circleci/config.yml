@@ -4,7 +4,7 @@ jobs:
   red:
     ###############################
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -21,7 +21,7 @@ jobs:
   blue:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -35,7 +35,7 @@ jobs:
   silver:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -50,7 +50,7 @@ jobs:
   yellow:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -64,7 +64,7 @@ jobs:
   green:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -79,7 +79,7 @@ jobs:
   purple:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -94,7 +94,7 @@ jobs:
   pink:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -108,7 +108,7 @@ jobs:
   black:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -122,7 +122,7 @@ jobs:
   white:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
@@ -138,7 +138,7 @@ jobs:
   grey:
     
     docker:
-      - image: cimg/node:18.20.7
+      - image: cimg/node:20.16.0
     
     steps:
       - checkout
