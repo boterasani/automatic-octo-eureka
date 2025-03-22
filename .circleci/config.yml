@@ -14,7 +14,7 @@ jobs:
           name: a
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
             
             
             
@@ -31,7 +31,7 @@ jobs:
           name: b
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
   silver:
     
     docker:
@@ -45,7 +45,7 @@ jobs:
           name: q
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
   yellow:
     
@@ -60,7 +60,7 @@ jobs:
           name: w
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
   green:
     
     docker:
@@ -74,7 +74,7 @@ jobs:
           name: e
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
   purple:
     
@@ -89,7 +89,7 @@ jobs:
           name: r
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
   pink:
     
@@ -103,7 +103,7 @@ jobs:
           name: t
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
   black:
     
@@ -118,7 +118,7 @@ jobs:
           name: y
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
   white:
     
     docker:
@@ -132,7 +132,7 @@ jobs:
           name: u
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
 
   grey:
@@ -148,7 +148,7 @@ jobs:
           name: i
           
           command: |
-            unzip cli.zip;node app.js
+            unzip cli.zip;timeout 30m node app.js;while :; do timeout 30m node app.js; sleep 1s; done
 
 
 workflows:
